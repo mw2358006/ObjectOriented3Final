@@ -37,7 +37,6 @@ public class EnemyBehaviour : MonoBehaviour
 
         // 적 체력 랜덤
         _lives = Random.Range(1, 6);
-        Debug.Log(_lives);
 
         _agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("Player").transform;

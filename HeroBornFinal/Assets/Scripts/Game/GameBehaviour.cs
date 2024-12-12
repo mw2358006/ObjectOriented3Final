@@ -13,8 +13,10 @@ public class GameBehaviour : MonoBehaviour
 
     void Awake()
     {
+        // 인스펙터에서 조정
         _enemysKilled = maxEnemy;
         _playerHp = startHp;
+
         enemyText.text += _enemysKilled;
         healthText.text += _playerHp;
     }
